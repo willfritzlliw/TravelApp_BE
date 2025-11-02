@@ -1,3 +1,6 @@
+"""
+URL configuration for base app.
+"""
 from django.urls import include, path
 from rest_framework import routers
 import base.views as views
